@@ -1,6 +1,4 @@
 ﻿//create a variable called x and give it a value of 5
-using Internal;
-using System;
 
 int age = 5;
 string name = "Justin";
@@ -75,8 +73,33 @@ if (y == null)
 //nonnullable
 //int z = null;
 
+//Excercise 1
+Console.WriteLine("Enter some text");
+string ex1 = Console.ReadLine();
+Console.WriteLine(ex1);
 
+//Exercise 2
+Console.WriteLine("Enter a number");
+int number = int.Parse(Console.ReadLine());
+Console.WriteLine(number + 1);
 
+//Exercise 3
+Console.WriteLine("Enter a number");
+double number2 = double.Parse(Console.ReadLine());
+Console.WriteLine(number2 + .5);
 
+//Exercise 4
+Console.WriteLine("Enter a number");
+double number3 = double.Parse(Console.ReadLine());
+Console.WriteLine("Enter another number");
+double number4 = double.Parse(Console.ReadLine());
+Console.WriteLine("The sum is " + (number3 + number4));
+
+//Exercise 5
+Console.WriteLine("Enter a number");
+double number5 = double.Parse(Console.ReadLine());
+Console.WriteLine("Enter another number");
+double number6 = double.Parse(Console.ReadLine());
+Console.WriteLine("The product is " + (number5 * number6));
 
 Console.ReadLine();
